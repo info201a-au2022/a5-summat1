@@ -4,6 +4,8 @@ library(shinythemes)
 library(tidyverse)
 library(plotly)
 
+source("app_server.R")
+
 # Countries to choose from
 countries <- c("United States", "United Kingdom", "Japan", "China", "Russia",
                "India", "France", "Italy", "Israel", "United Arab Emirates", "Canada",
